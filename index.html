@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Application Form </title>
+	<link rel="stylesheet" type="text/css" href="re.CSS">
+	
+</head>
+
+
+
+<body>
+	<div style="width:400px; margin:0 auto;"
+        centered content>
+	<h1> New Registration</h1>
+<br>
+	<h2>Fill the details to Sign up</h2>
+
+	<form name = "form1" action="connection.php" method = "get" enctype = "multipart/form-data" >  
+<label>Full Name</label>
+<br>
+<input type="text" name="Full Name" placeholder="Enter Full Name">
+<br>
+<br>
+<label>Email</label>
+<br>
+<input type="Email" name="Email " placeholder="Enter Email address" >
+<br>
+<br>
+<label>Mobile No.</label>
+<br>
+<input type="Mobile" name="Mobile No." placeholder="Enter mobile No.">
+<br>
+<br>
+
+	<label>Address</label>
+	<br>
+<input type="text" name="Address" placeholder="Enter Address">
+<br>
+<br>
+	<label>College Name</label>
+	<br>
+<input type="text" name="College Name" placeholder="Enter College Name" >
+<br>
+<br>
+
+	<label>Gender</label>
+	<br>
+	<select name="Gender">
+		<option value= "Male">Male</option>
+		<option value= "Female">Female</option>
+		<option value= "Others">Others</option>
+	</select>
+
+<br>
+<br>
+	<label>Category</label>
+	<br>
+	<select name="Category">
+		<option value= "UR">UR</option>
+		<option value= "OBC">OBC</option>
+		<option value= "SC">SC</option>
+		<option value= "ST">ST</option>
+	</select>
+<br>
+<br>
+<label>Date Of Birth:</label>
+<br>
+<input type="Date" name="Date of Birth" placeholder="Enter Date Of Birth">
+<br>
+<br>
+<label>Password</label>
+<br>
+<input type="Password" name="Password" placeholder="Enter Strong Password">
+<br>
+<br>
+</form>
+	<button type="button" id="linked" <a href="otp.php">Sign Up</a></button>
+	</form>
+	<br>
+<label id="linked"><a href="otp.php">Sign in instead</a></label>
+
+		</div>
+<br>
+
+</body>
+
+</html>
