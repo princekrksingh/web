@@ -1,0 +1,66 @@
+body{background-color:#ff9933;
+  
+
+
+}
+h1{color: black;
+	text-decoration: underline;
+text-align: center;
+font-family: aerial solid;
+font-size: 30px;
+}
+h2{color: blue;
+text-align: left;
+font-family: helvetica;
+font-size: 20px;
+}
+div{background-color: white;
+font-family: aerial bold;
+font-family: 20px;
+width: 300px;
+  border: 10px solid green;
+  padding: 50px;
+  margin: 20px;
+  width: 300px;
+
+}
+select {
+        width: 310px;
+        margin: 0px;
+        border: 4px solid #8842d5;
+    border-radius: 5px
+    }
+    input[type="text"] {
+    border: 4px solid #8842d5;
+    border-radius: 5px; 
+    width: 300px; 
+}
+input[type="Email"] {
+    border: 4px solid #8842d5;
+    border-radius: 5px;
+    width: 300px;  
+}
+input[type="Mobile"] {
+    border: 4px solid #8842d5;
+    border-radius: 5px;  
+    width: 300px;
+}
+input[type="Password"] {
+    border: 4px solid #8842d5;
+    border-radius: 5px;
+    width: 300px;  
+}
+input[type="Date"] {
+    border: 4px solid #8842d5;
+    border-radius: 5px;
+    width: 300px;
+
+}
+.button{
+  background-color:grey;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
